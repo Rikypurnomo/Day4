@@ -1,0 +1,97 @@
+<html>
+  <head>
+    <title>myproject</title>
+    <link rel="stylesheet" href="assets/css/myproject.css" />
+    <link rel="shortcut icon" href="images/icons8-google-16.png">
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <div class="left-side">
+        <a href="index.html">
+          <img src="images/logo.png" alt="logo"/>
+        </a>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="myproject.html" class="list-active">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right-side">
+        <a href="contact.html"> Contact Me </a>
+      </div>
+    </nav>
+        <main>
+            <div class="project-form">
+                <h1>ADD MY PROJECT</h1>
+                <form onsubmit="addData(event)">
+                    <div class="projectname">
+                        <label for="Project_name">Project Name</label>
+                        <input type="text"id="project_name">
+                    </div>
+
+                    <div class="date">
+                        <div class="half">
+                            <label for="start_date">Start Date</label>
+                            <input type="date" id ="start_date">
+                        </div>
+                        <div class="half">
+                            <label for="and_date">End Date</label>
+                            <input type="date" id="end_date">
+                        </div>
+                    </div>
+            
+            <div class="deskripsi">
+                <label for="description">Description</label>
+                <textarea name="description" id="description"></textarea>
+            </div>
+            <h4>Technologies</h4>
+            <div class="checkbox">
+
+                <div class="checkbox-kiri">
+                    <div class="checkbox-grup">
+                        <input type="checkbox" name="nodejs" id="nodejs" value="nodejs">
+                        <label for="nodejs">Node JS</label>
+                    </div>
+                    <div class="checkbox-grup">
+                        <input type="checkbox" name="reactjs" id="reactjs" value="reactjs">
+                        <label for="reactjs">React JS</label>
+                    </div>
+                </div>
+                <div class="checkbox-kanan">
+                    <div class="checkbox-grup">
+                        <input type="checkbox" name="nextjs" id="nextjs" value="nextjs">
+                        <label for="nextjs">Next JS</label>
+                    </div>
+                    <div class="checkbox-grup">
+                        <input type="checkbox" name="typescript" id="typescript" value="typescript">
+                        <label for="typescript">TypeScript</label>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="upload">
+                <label for="upload_image">Upload Image</label>
+                <input type="file" id="upload_image">
+            </div>
+
+            <div class="button">
+                <button type="submit" class="btn-submit">submit</button>
+            </div>
+            </div>
+                </form>
+
+            <div class="list-project-head">
+                <h1>My Project</h1>
+                <div class="list-project" id="projects">
+
+                </div>
+            </div>
+        </main>
+    <script src="/assets/css/myproject.js"></script>
+  </body>
+</html>

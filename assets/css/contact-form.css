@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    font-family: 'poppins',sans-serif;
+    background: rgba(241, 240, 240, 0.991);
+}
+
+form {
+    width: 350px;
+    margin:50px auto;
+}
+
+div{
+    margin-top: 20px;
+}
+
+input,select,textarea{
+    width: 100%;
+    padding: 10px;
+    background-color:white;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+    margin-top: 5px;
+}
+label{
+    font-weight: bold;
+}
+textarea{
+    resize: none;
+    padding-bottom: 50px;
+}
+button{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 6px 25px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-left: 280px;
+    
+}
+.item-right a{
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.item-right{
+    flex: 50%;
+    text-align: end;
+    margin-right: 30px;
+}
+
+.item-left{
+        flex: 50%;
+}
+
+.imglogo {
+    width: 32px;
+    margin-right: 24px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #3d3d3d;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    height: 9vh;
+    align-items: center;
+}
+img{
+    width: 100%;
+}
+nav ul {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+}
+nav ul li .active{
+    color: black;
+    margin-right: 10px;
+}
+nav ul li .activee{
+    font-family: serif;
+}
+P{
+text-align: center;
+font-size: xx-large;
+font-weight: bold;
+}
